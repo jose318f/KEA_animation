@@ -1,255 +1,394 @@
-.screen {
-    background: url(gamebackground.svg);
-    background-size: cover;
-    width: 20vw;
-    height: 80vw;
+#screen {
+    position: relative;
+    width: 100vw;
+    height: 100vw;
     margin: auto;
     overflow: hidden;
 }
 
-.menu_background {
-    background: url("startscreen.svg");
+
+#menu_background {
+    display: none;
+
+    background-image: url("startscreen.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 28vw;
-    height: 23vw;
+    width: 100vw;
+    height: 100vw;
     position: absolute;
-    left: 40vw;
-    top: 23vw;
 
 
 
 }
 
-.game_background {
-    background: url("gamebackground.svg");
+#game_background {
+    background-image: url("gamebackground.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 28vw;
-    height: 23vw;
+    background-size: 100vw;
+    width: 100vw;
+    height: 100vw;
     position: absolute;
-    left: 40vw;
-    top: 23vw;
+}
+
+
+#character {
+    background-image: url("character.svg");
+    background-repeat: no-repeat;
+    background-size: 26vw;
+    width: 26vw;
+    height: 34vw;
+    position: absolute;
+    left: 12vw;
+    top: 22vw;
 
 
 }
 
-.character {
-    background: url("character.svg");
+#chime1 {
+    background-image: url("chime1.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 28vw;
-    height: 23vw;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
     position: absolute;
-    left: 40vw;
-    top: 23vw;
+    left: 51.5vw;
+    top: 12vw;
+
+}
+
+#chime2 {
+    background-image: url("chime2.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
+    position: absolute;
+    left: 61vw;
+    top: 12vw;
+
+}
+
+#chime3 {
+    background-image: url("chime3.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
+    position: absolute;
+    left: 70.7vw;
+    top: 12vw;
+
+}
+
+#chime4 {
+    background-image: url("chime4.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
+    position: absolute;
+    left: 81vw;
+    top: 12vw;
 
 
 }
 
-.chime1 {
-    background: url("chime1.svg");
+
+#chime5 {
+    background-image: url("chime2.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
+    position: absolute;
+    left: 81vw;
+    top: 27vw;
+
+
+}
+
+#chime6 {
+    background-image: url("chime1.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
+    position: absolute;
+    left: 61vw;
+    top: 27vw;
+
+}
+
+
+
+
+#chime7 {
+    background-image: url("chime4.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
+    position: absolute;
+    left: 70.7vw;
+    top: 27vw;
+
+}
+
+
+
+#chime8 {
+    background-image: url("chime3.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
+    position: absolute;
+    left: 51.5vw;
+    top: 27vw;
+
+}
+
+
+#chime9 {
+    background-image: url("chime1.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
+    position: absolute;
+    left: 51.5vw;
+    top: 41vw;
+
+}
+
+#chime10 {
+    background-image: url("chime3.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
+    position: absolute;
+    left: 61vw;
+    top: 41vw;
+
+}
+
+#chime11 {
+    background-image: url("chime2.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
+    position: absolute;
+    left: 70.7vw;
+    top: 41vw;
+
+}
+
+#chime12 {
+    background-image: url("chime1.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    width: 9vw;
+    height: 16vw;
+    position: absolute;
+    left: 81vw;
+    top: 41vw;
+
+
+}
+
+
+#points {
+
+    background-image: url("points.svg");
+    background-repeat: no-repeat;
+    background-size: 10vw;
+    width: 10.3vw;
+    height: 7vw;
+    position: absolute;
+    left: 2vw;
+    top: 43vw;
+
+}
+
+#health {
+
+    background-image: url("health.svg");
+    background-repeat: no-repeat;
+    background-size: 15vw;
+    width: 15vw;
+    height: 4vw;
+    position: absolute;
+    left: 2vw;
+    top: 51vw;
+
+
+
+}
+
+
+#timer {
+    background-image: url("timer.svg");
+    background-repeat: no-repeat;
+    background-size: 10.3vw;
+    width: 10vw;
+    height: 6vw;
+    position: absolute;
+    left: 38vw;
+    top: 50vw;
+
+}
+
+#start {
+    display: none;
+
+    background-image: url("startbutton.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    left: 39vw;
+    top: 33vw;
+}
+
+
+
+#settings {
+
+    background-image: url("settings.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 3vw;
+    position: absolute;
+    left: 2vw;
+    top: 1vw;
+
+}
+
+*/ #gameover {
+
+    display: none;
+
+    background-image: url("gameover.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 60vw;
+    height: 50vw;
+    position: absolute;
+    left: 25vw;
+    top: 4vw;
+    z-index: 20;
+}
+
+#win {
+    display: none;
+
+    background-image: url("youwon.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 60vw;
+    height: 50vw;
+    position: absolute;
+    left: 25vw;
+    top: 4vw;
+
+}
+
+#tryagain1 {
+    display: none;
+
+    background-image: url("tryagain.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 15vw;
     height: 20vw;
     position: absolute;
-    left: 40vw;
-    top: 23vw;
+    left: 68vw;
+    top: 28vw;
 
 }
 
-.chime2 {
-    background: url("chime2.svg");
+#tryagain2 {
+    display: none;
+
+    background-image: url("tryagain.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 15vw;
     height: 20vw;
     position: absolute;
-    left: 40vw;
-    top: 23vw;
+    left: 60vw;
+    top: 28vw;
 
 }
 
-.chime3 {
-    background: url("chime3.svg");
+#gamesoundon {
+    display: none;
+
+    background-image: url("gamesoundon.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 15vw;
-    height: 20vw;
+    width: 3vw;
+    height: 3vw;
     position: absolute;
-    left: 40vw;
-    top: 23vw;
+    left: 2.5vw;
+    top: 4vw;
 
 }
 
-.chime4 {
-    background: url("chime4.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 15vw;
-    height: 20vw;
-    position: absolute;
-    left: 40vw;
-    top: 23vw;
+#gamesoundoff {
+    display: none;
 
-}
-
-.points {
-
-    background: url("points.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 15vw;
-    height: 20vw;
-    position: absolute;
-    left: 40vw;
-    top: 23vw;
-
-}
-
-
-.timer {
-    background: url("timer.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 15vw;
-    height: 20vw;
-    position: absolute;
-    left: 40vw;
-    top: 23vw;
-
-}
-
-.start {
-    background: url("startbutton.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 15vw;
-    height: 20vw;
-    position: absolute;
-    left: 40vw;
-    top: 23vw;
-}
-
-.settings {
-    background: url("settings.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 15vw;
-    height: 20vw;
-    position: absolute;
-    left: 40vw;
-    top: 23vw;
-
-}
-
-.gameover {
-    background: url("gameover.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 15vw;
-    height: 20vw;
-    position: absolute;
-    left: 40vw;
-    top: 23vw;
-
-}
-
-.win {
-    background: url("youwon.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 15vw;
-    height: 20vw;
-    position: absolute;
-    left: 40vw;
-    top: 23vw;
-
-}
-
-.tryagain {
-    background: url("tryagain.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 15vw;
-    height: 20vw;
-    position: absolute;
-    left: 40vw;
-    top: 23vw;
-
-}
-
-.gamesoundon {
-    background: url("gamesoundon.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 15vw;
-    height: 20vw;
-    position: absolute;
-    left: 40vw;
-    top: 23vw;
-
-}
-
-.gamesoundoff {
     background-image: url("gamesoundoff.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 15vw;
-    height: 20vw;
+    width: 3vw;
+    height: 3vw;
     position: absolute;
-    left: 40vw;
-    top: 23vw;
+    left: 2.5vw;
+    top: 7vw;
 
 
 }
 
-.musicon {
+#musicon {
+    display: none;
+
     background: url("musicon.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 15vw;
-    height: 20vw;
+    width: 2.5vw;
+    height: 2.6vw;
     position: absolute;
-    left: 40vw;
-    top: 23vw;
+    left: 7vw;
+    top: 4vw;
 
 
 }
 
-.musicoff {
-    background: url("musicoff.svg");
+#musicoff {
+    display: none;
+
+    background-image: url("musicoff.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 15vw;
-    height: 20vw;
+    width: 3vw;
+    height: 2.5vw;
     position: absolute;
-    left: 40vw;
-    top: 23vw;
+    left: 7vw;
+    top: 7.2vw;
 
 }
 
-.musicoff {
-    background: url("musicoff.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 15vw;
-    height: 20vw;
-    position: absolute;
-    left: 40vw;
-    top: 23vw;
 
-}
 
-.gamesoundoff {
-    background: url("gamesoundoff.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 15vw;
-    height: 20vw;
-    position: absolute;
-    left: 40vw;
-    top: 23vw;
 
+
+
+
+.hide {
+    display: none;
 }
