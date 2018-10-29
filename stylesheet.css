@@ -1,0 +1,255 @@
+.screen {
+    background: url(gamebackground.svg);
+    background-size: cover;
+    width: 20vw;
+    height: 80vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+.menu_background {
+    background: url("startscreen.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 28vw;
+    height: 23vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+
+
+}
+
+.game_background {
+    background: url("gamebackground.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 28vw;
+    height: 23vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+
+}
+
+.character {
+    background: url("character.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 28vw;
+    height: 23vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+
+}
+
+.chime1 {
+    background: url("chime1.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.chime2 {
+    background: url("chime2.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.chime3 {
+    background: url("chime3.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.chime4 {
+    background: url("chime4.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.points {
+
+    background: url("points.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+
+.timer {
+    background: url("timer.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.start {
+    background: url("startbutton.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+}
+
+.settings {
+    background: url("settings.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.gameover {
+    background: url("gameover.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.win {
+    background: url("youwon.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.tryagain {
+    background: url("tryagain.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.gamesoundon {
+    background: url("gamesoundon.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.gamesoundoff {
+    background-image: url("gamesoundoff.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+
+}
+
+.musicon {
+    background: url("musicon.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+
+}
+
+.musicoff {
+    background: url("musicoff.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.musicoff {
+    background: url("musicoff.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
+
+.gamesoundoff {
+    background: url("gamesoundoff.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 23vw;
+
+}
