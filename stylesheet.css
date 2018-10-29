@@ -385,7 +385,23 @@
 
 
 
+@keyframes .chime_move {
 
+    0% {
+        transform: none;
+    }
+
+    100% {
+        transform: skewX(10deg);
+
+    }
+
+}
+
+
+
+
+}
 
 
 
