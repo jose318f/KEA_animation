@@ -48,8 +48,8 @@
     background-image: url("chime1.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
     left: 51.5vw;
     top: 12vw;
@@ -60,8 +60,8 @@
     background-image: url("chime2.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
     left: 61vw;
     top: 12vw;
@@ -72,8 +72,8 @@
     background-image: url("chime3.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
     left: 70.7vw;
     top: 12vw;
@@ -84,8 +84,8 @@
     background-image: url("chime4.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
     left: 81vw;
     top: 12vw;
@@ -98,8 +98,8 @@
     background-image: url("chime2.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
     left: 81vw;
     top: 27vw;
@@ -111,8 +111,8 @@
     background-image: url("chime1.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
     left: 61vw;
     top: 27vw;
@@ -126,10 +126,10 @@
     background-image: url("chime4.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
-    left: 70.7vw;
+    left: 71.6vw;
     top: 27vw;
 
 }
@@ -140,8 +140,8 @@
     background-image: url("chime3.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
     left: 51.5vw;
     top: 27vw;
@@ -153,11 +153,11 @@
     background-image: url("chime1.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
     left: 51.5vw;
-    top: 41vw;
+    top: 41.4vw;
 
 }
 
@@ -165,11 +165,11 @@
     background-image: url("chime3.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
     left: 61vw;
-    top: 41vw;
+    top: 41.2vw;
 
 }
 
@@ -177,11 +177,11 @@
     background-image: url("chime2.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
     left: 70.7vw;
-    top: 41vw;
+    top: 41.4vw;
 
 }
 
@@ -189,11 +189,11 @@
     background-image: url("chime1.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
-    width: 9vw;
-    height: 16vw;
+    width: 8vw;
+    height: 14vw;
     position: absolute;
     left: 81vw;
-    top: 41vw;
+    top: 41.4vw;
 
 
 }
@@ -385,18 +385,32 @@
 
 
 
-@keyframes .chime_move {
 
+.chime_move {
+
+
+
+    animation-name: chime_kf;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+    transform-origin: 41% 73%;
+
+}
+
+
+@keyframes chime_move_kf {
     0% {
-        transform: none;
+        transform: rotatex(0deg);
     }
 
     100% {
-        transform: skewX(10deg);
-
+        transform: rotateX(3deg);
     }
 
 }
+
+
 
 
 
