@@ -1,34 +1,107 @@
+:root {
+    font-size: 2vw;
+}
+
+body {
+    margin: 0;
+}
+
 #screen {
-    position: relative;
     width: 100vw;
-    height: 100vw;
-    margin: auto;
+    height: 56.25vw;
+    background-color: darkred;
     overflow: hidden;
+    position: relative;
+
+    /*  touch-action: none;*/
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* effekter */
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.blur {
+    filter: blur(5px) brightness(80%);
+}
+
+.fade_out {
+    animation-name: fadeout_kf;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeout_kf {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+
+@keyframes pulse_kf {
+    0% {
+        transform: scale(0.96);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+#start {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(startscreen.svg);
+    background-size: 100%;
+    background-color: rgba(240, 248, 255, 0.75);
+}
+
+#play {
+    position: absolute;
+    width: 15vw;
+    height: 14.1vw;
+    background-image: url(startbutton.svg);
+    background-size: 100%;
+    left: 43vw;
+    top: 35vw;
+    background-repeat: no-repeat;
+
+    cursor: pointer;
 }
 
 
 #menu_background {
-    display: none;
 
-    background-image: url("startscreen.svg");
+    background-image: url("gamebackground.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100vw;
     height: 100vw;
-    position: absolute;
-
-
-
+    position: relative;
 }
 
-#game_background {
-    background-image: url("gamebackground.svg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    width: 100vw;
-    height: 100vw;
-    position: absolute;
-}
 
 
 #character {
@@ -40,8 +113,6 @@
     position: absolute;
     left: 12vw;
     top: 22vw;
-
-
 }
 
 #chime1 {
@@ -80,6 +151,7 @@
 
 }
 
+
 #chime4 {
     background-image: url("chime4.svg");
     background-repeat: no-repeat;
@@ -93,8 +165,7 @@
 
 }
 
-
-#chime5 {
+* #chime5 {
     background-image: url("chime2.svg");
     background-repeat: no-repeat;
     background-size: 8vw;
@@ -240,17 +311,16 @@
 
 }
 
+
 #start {
     display: none;
 
-    background-image: url("startbutton.svg");
+    background-image: url("startscreen.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 20vw;
-    height: 20vw;
+    background-size: 100vw;
+    width: 100vw;
+    height: 100vw;
     position: absolute;
-    left: 39vw;
-    top: 33vw;
 }
 
 
@@ -268,9 +338,7 @@
 
 }
 
-*/ #gameover {
-
-    display: none;
+#gameover {
 
     background-image: url("gameover.svg");
     background-repeat: no-repeat;
@@ -284,7 +352,6 @@
 }
 
 #win {
-    display: none;
 
     background-image: url("youwon.svg");
     background-repeat: no-repeat;
@@ -298,7 +365,7 @@
 }
 
 #tryagain1 {
-    display: none;
+
 
     background-image: url("tryagain.svg");
     background-repeat: no-repeat;
@@ -312,7 +379,6 @@
 }
 
 #tryagain2 {
-    display: none;
 
     background-image: url("tryagain.svg");
     background-repeat: no-repeat;
@@ -320,13 +386,13 @@
     width: 15vw;
     height: 20vw;
     position: absolute;
-    left: 60vw;
+    left: 68vw;
     top: 28vw;
+
 
 }
 
 #gamesoundon {
-    display: none;
 
     background-image: url("gamesoundon.svg");
     background-repeat: no-repeat;
@@ -340,7 +406,6 @@
 }
 
 #gamesoundoff {
-    display: none;
 
     background-image: url("gamesoundoff.svg");
     background-repeat: no-repeat;
@@ -355,7 +420,6 @@
 }
 
 #musicon {
-    display: none;
 
     background: url("musicon.svg");
     background-repeat: no-repeat;
@@ -370,7 +434,6 @@
 }
 
 #musicoff {
-    display: none;
 
     background-image: url("musicoff.svg");
     background-repeat: no-repeat;
@@ -381,44 +444,4 @@
     left: 7vw;
     top: 7.2vw;
 
-}
-
-
-
-
-.chime_move {
-
-
-
-    animation-name: chime_kf;
-    animation-duration: 5s;
-    animation-iteration-count: 3;
-    animation-timing-function: linear;
-    transform-origin: 41% 73%;
-
-}
-
-
-@keyframes chime_move_kf {
-    0% {
-        transform: rotatex(0deg);
-    }
-
-    100% {
-        transform: rotateX(3deg);
-    }
-
-}
-
-
-
-
-
-
-}
-
-
-
-.hide {
-    display: none;
 }
